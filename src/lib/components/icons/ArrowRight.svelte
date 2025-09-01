@@ -1,0 +1,22 @@
+<script>
+	export let size = 26;
+	export let color = "white";
+	export let opacity = 1;
+</script>
+
+<svg
+	width={size}
+	height={size}
+	viewBox="0 0 26 26"
+	fill="none"
+	xmlns="http://www.w3.org/2000/svg"
+>
+	<g id="icon/hardware/keyboard_arrow_right_24px">
+		<path 
+			id="icon/hardware/keyboard_arrow_right_24px_2" 
+			d="M8.98624 17.9725L13.9479 13L8.98624 8.0275L10.5137 6.5L17.0137 13L10.5137 19.5L8.98624 17.9725Z" 
+			fill={color}
+			fill-opacity={opacity}
+		/>
+	</g>
+</svg>
