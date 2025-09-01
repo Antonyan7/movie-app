@@ -51,7 +51,7 @@
 {#if showFilters}
 	<div class="mt-2 p-4 bg-gray-800 rounded-lg space-y-3 mx-[10px]">
 		<select
-			class="w-full bg-gray-700 p-3 rounded-md text-base border border-gray-600 focus:border-gray-500 focus:outline-none"
+			class="w-full bg-gray-700 p-3 rounded-md text-base border border-gray-600 focus:border-gray-500 focus:outline-none border-r-8 border-gray-700"
 			bind:value={selectedGenre}
 			on:change={handleFilter}
 		>
@@ -62,7 +62,7 @@
 		</select>
 
 		<select
-			class="w-full bg-gray-700 p-3 rounded-md text-base border border-gray-600 focus:border-gray-500 focus:outline-none"
+			class="w-full bg-gray-700 p-3 rounded-md text-base border border-gray-600 focus:border-gray-500 focus:outline-none border-r-8 border-gray-700"
 			bind:value={selectedYear}
 			on:change={handleFilter}
 		>
