@@ -63,7 +63,7 @@ The app fetches data dynamically from **The Movie Database (TMDb) API**.
     - Popular (carousel of movies/TV shows)
     - Recommended (carousel of movies/TV shows)
 - **Filters**:
-    - Multi-select by genre
+    - Filter by genre
     - Filter by release year
 - **Search** movies
 - **Details page** with:
@@ -119,6 +119,24 @@ The app fetches data dynamically from **The Movie Database (TMDb) API**.
 
 To create a production build and preview it locally:
 
-```bash
-npm run build
-npm run preview
+    ```bash
+    npm run build
+    npm run preview
+---
+
+## 🌐 Live Demo
+The app is deployed on Vercel:  
+👉 [Movie App on Vercel](https://movie-app-blue-tau.vercel.app/)
+
+---
+
+## 🚀 Deployment
+
+[![Vercel](https://vercelbadge.vercel.app/api/your-username/movie-app)](https://movie-app-blue-tau.vercel.app/)
+
+The app is live on **Vercel**:  
+👉 [https://movie-app-blue-tau.vercel.app/](https://movie-app-blue-tau.vercel.app/)
+
+
+
+
