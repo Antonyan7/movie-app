@@ -138,5 +138,7 @@ The app is live on **Vercel**:
 👉 [https://movie-app-blue-tau.vercel.app/](https://movie-app-blue-tau.vercel.app/)
 
 
+## 📹 Demo
 
+![Demo](./static/demo.gif)
 
