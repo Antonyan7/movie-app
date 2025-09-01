@@ -36,7 +36,7 @@
 	}
 </script>
 
-<div class="bg-[#1F1F29] min-h-screen text-white">
+<div class="bg-[#1F1F29] min-h-screen text-white mb-10">
 	<Header />
 	<div class="p-4">
 		<FilterBar bind:selectedGenre bind:selectedYear onFilter={handleFilter} onSearch={handleSearch} />

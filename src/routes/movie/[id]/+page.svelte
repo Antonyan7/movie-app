@@ -34,7 +34,7 @@
 </script>
 
 {#if movie}
-	<div class="bg-[#1F1F29] text-white min-h-screen pb-4">
+	<div class="bg-[#1F1F29] text-white min-h-screen pb-4 mb-10">
 		<div class="md:hidden">
 			<div class="relative">
 				<img src={posterBaseUrl + movie.poster_path} alt={movie.title} class="w-full h-[482px] object-fill" />
