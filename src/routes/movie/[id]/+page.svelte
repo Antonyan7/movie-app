@@ -166,5 +166,10 @@
 		</div>
 	</div>
 {:else}
-	<p class="text-white">Loading...</p>
+	<div class="bg-[#1F1F29] min-h-screen text-white flex items-center justify-center">
+		<div class="text-center">
+			<div class="animate-spin rounded-full h-12 w-12 border-b-2 border-[#F5C518] mx-auto mb-4"></div>
+			<p class="text-[#FFFFFF] text-[18px] font-normal">Loading...</p>
+		</div>
+	</div>
 {/if}
