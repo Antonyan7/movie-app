@@ -37,7 +37,7 @@
 	<div class="bg-[#1F1F29] text-white min-h-screen pb-4 mb-10">
 		<div class="md:hidden">
 			<div class="relative">
-				<img src={posterBaseUrl + movie.poster_path} alt={movie.title} class="w-full h-[482px] object-fill" />
+				<img src={posterBaseUrl + movie.poster_path} alt={movie.title} class="w-full h-[482px] object-cover object-top" />
 				<div class="absolute bottom-0 left-0 right-0 h-16 bg-gradient-to-t from-[#1F1F29] to-transparent"></div>
 				<div class="absolute bottom-[43px] right-[13px] text-white text-[16px] font-semibold">
 					{Math.floor(movie.runtime / 60)}h {movie.runtime % 60}min
@@ -93,7 +93,7 @@
 					<div class="w-[108px]">
 						{#if actor.profile_path}
 							<div class="w-[108px] h-[108px] ">
-								<img src={"https://image.tmdb.org/t/p/w185" + actor.profile_path} alt={actor.name} class="w-full h-full rounded-[5px]" />
+								<img src={"https://image.tmdb.org/t/p/w185" + actor.profile_path} alt={actor.name} class="w-full h-full rounded-[5px] object-cover" />
 							</div>
 						{/if}
 						<p class="text-[12px] text-[#FFFFFF] font-normal text-center mt-[5px] truncate">{actor.name}</p>
@@ -151,7 +151,7 @@
 					<div class="w-[108px]">
 						{#if actor.profile_path}
 							<div class="w-[108px] h-[108px] ">
-								<img src={"https://image.tmdb.org/t/p/w185" + actor.profile_path} alt={actor.name} class="w-full h-full rounded-[5px] object-cover" />
+								<img src={"https://image.tmdb.org/t/p/w185" + actor.profile_path} alt={actor.name} class="w-full h-full rounded-[5px] object-cover object-top" />
 							</div>
 						{/if}
 						<p class="text-[12px] text-[#FFFFFF] font-normal text-center mt-[5px] truncate">{actor.name}</p>
